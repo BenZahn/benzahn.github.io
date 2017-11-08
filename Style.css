@@ -1,0 +1,250 @@
+     body	{background-color:white;
+                 background="https://openclipart.org/download/253522/1467030305.svg"
+    	 	 background-repeat: no-repeat;
+    	 	 background-position: right top;
+    	 	 background-attachment: fixed;
+         	 margin:0px;
+		 background-size: cover;
+		 text-align:center;}
+		
+    	h1	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 40px;
+		 font-style: normal;
+		 font-weight: 500;
+         color: black;
+		 line-height: auto 0px;}
+
+    	h2	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 40px;
+		 font-style: normal;
+		 font-weight: 500;
+         	 color: white;}
+			 
+		p	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 23px;
+		 font-style: normal;
+		 font-weight: 500;
+         color: black;
+		 line-height: auto 0px;
+		 } 
+    
+    	hr 	{border-top: 2px solid white;
+        	 width: 60%;
+		 margin-top:60px;} 
+         
+     .topnav 	{overflow: hidden;
+             	     width: 100%;
+				     background-color:  white;
+                     z-index:2;
+					 position: fixed;
+                 }
+             
+    .topnav a 	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+    		 float: right;
+    		 color: black;
+    		 text-align: center;
+    		 padding: 14px ;
+    		 text-decoration: none;
+    		 font-size: 17px;}
+
+    .topnav b	{font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+   		     float: left;
+      		 color: black;
+        	 text-align: left;
+    		 padding: 14px ;
+    		 font-size: 17px;}
+               
+    .topnav a:hover { color: blue;}
+				
+.mySlides {display:none;}
+
+.title {position: fixed;
+}
+
+.title h1 {text-align:center;
+				margin-left:120px;
+				margin-right:120px;}
+				
+.title p{text-align:center;
+				margin-left:120px;
+				margin-right:120px;
+				line-height: 200%;}
+
+.img {
+    margin: auto;
+    width: 100%;
+	height: 900px;
+	position:relative;
+}
+
+a.selected:active {
+  display: block;
+  background-color: #066;
+  color: #fff;
+} 
+
+			
+.textHoverImage {
+  color: black;
+  padding: 16px 32px;
+  font-family: bebas;
+font-size: 33px;
+font-weight: bold!important;
+}
+
+.indian {background-color: white;
+			position:relative;
+			width:100%;
+			}
+			
+.chinese {background-color: white;
+			position:relative;
+			background-color:white;
+			width:100%;
+			}
+			
+.ramlyburger {background-color: white;
+			position:relative;
+			background-color:white;
+			width:100%;
+			}
+			
+.malay {background-color: white;
+			position:relative;
+			background-color:white;
+			width:100%;
+			}
+
+.indian img {text-align:middle;}
+.ramlyburger img{ height:400px;}
+
+}
+			
+			
+.image {
+  opacity: 2;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.indian:hover .image {
+  opacity: 0.3;
+}
+
+.indian:hover .middle {
+  opacity: 1;
+}
+
+.chinese:hover .image {
+  opacity: 0.3;
+}
+
+.chinese:hover .middle {
+  opacity: 1;
+}
+
+.malay:hover .image {
+  opacity: 0.3;
+}
+
+.malay:hover .middle {
+  opacity: 1;
+}
+
+.ramlyburger:hover .image {
+  opacity: 0.3;
+}
+
+.ramlyburger:hover .middle {
+  opacity: 1;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align:center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.textbg{background-image: url("https://www.designersguild.com/image/654/59524");
+			position:absolute;
+			width:100%;
+			height:100%;
+			}
+
+.footer{ background-color:white;
+				position:relative;
+				width:100%;
+				height:200px;
+				overflow:hidden;
+				
+				}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+	text-shadow: 0 0 20px black;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, san-serif;
+		 font-size: 90px;
+		 font-style: normal;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);}
+
+.imgchi{
+    margin: auto;
+    width: 100%;
+	height: 700px;
+	position:relative;
+}
+
+.textbg2 {background-image: url("https://www.designersguild.com/image/654/59524");
+			position:absolute;
+			width:100%;
+			height:50%;
+			}
+

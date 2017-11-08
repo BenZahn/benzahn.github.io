@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Zahn </title>
+
+<link rel="shortcut icon" href="https://scontent.fkul2-1.fna.fbcdn.net/v/t1.0-9/10404353_1095493247141096_5234898708432599103_n.jpg?oh=e6fdbd8dc7c41f8d960e998dca18c802&oe=5A712116" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Style.css">
+
+</head>
+
+<body>
+
+<div class="topnav" id="myTopnav">	
+  <a href=RamlyBurger.html>RAMLYBURGER</a>
+  <a href=Malay.html>MALAY</a>
+   <a href=Indian.html>INDIAN</a>
+  <a href=Chinese.html>CHINESE</a>
+  <a  style="float:left"  href=Home.html >HOME</a>
+  </div>
+
+  
+  <br><br><br><br><br><br><br><br><br><br>
+  
+  <div  class="title">
+  <h1>Malaysian Delicacies</h1>
+  <p>Malaysia is known for it's diverse culture and if there was one thing that unites all its pockets of ethnicities, religions and landscapes, it’s food.</p>
+  </div> 
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+ 
+ <div  class="img">
+ <img class="mySlides" src="types_html.jpg" style="width:100%" height="900px"> 
+  <img class="mySlides" src="of_html.jpg" style="width:100%" height="900px">
+  <img class="mySlides" src="cuisine_html.jpg" style="width:100%" height="900px">
+</div>
+
+
+ 
+
+<div class="chinese">
+<br><br>
+ <a href="Chinese.html"><img src="https://i1.trekearth.com/photos/120130/kunming_7.jpg" class="image" width="500px" height="400px"/></a>
+  <div class="middle">
+    <div class="textHoverImage">CHINESE CUISINE</div>
+	</div>
+ </div>
+
+
+
+
+<div class="malay">
+<br><br>
+<a href="Malay.html"><img src="http://indigenouspeople.net/Malaysia/images1/27.jpg" class="image" width="500px" height="400px"/></a>
+  <div class="middle">
+    <div class="textHoverImage">MALAY CUISINE</div>
+ </div>
+ </div>
+ 
+ 
+
+ 
+<div class="indian">
+<br><br>
+ <a href="Indian.html"><img src="http://www.beetlesandhuxley.com/sites/default/files/stock-images/RABARI-SHEPHERD-RAJASTHAN-INDIA-2009-by-STEVE-MCCURRY-Born-1950-c049286B.jpg" class="image" width="500px" height="400px"/></a>
+  <div class="middle">
+    <div class="textHoverImage">INDIAN CUISINE</div>
+	</div>
+ </div>
+
+ 
+ 
+ 
+ <div class="ramlyburger">
+ <br><br>
+<a href="RamlyBurger.html"><img src="https://sg.openrice.com/userphoto/Article/0/11/0007GZ107AB51C290D4E17j.jpg" class="image" width="500px" height="400px"/></a>
+  <div class="middle">
+    <div class="textHoverImage">RAMLY BURGER</div>
+ </div>
+ </div>
+ 
+ <div class="textbg">
+ <form>
+<fieldset>
+<legend><h1>Contact us</h1></legend>
+        <p>Name: <input type="text" name="fullname"></p>
+           <p> Age:  <input type="number" name="num"></p>
+        <p>Email: <input type="text" name="email"></p>
+      <p> phone: <input type="phone" name="num"><br><br></p>
+	   <input type="submit">
+ </form>
+</div>
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ <div class="textbg2">
+<table style="width:70%" align="center">
+  <tr>
+    <th>Chinese Cuisine</th>
+    <th>Indian Cuisine</th> 
+    <th>Malay Cuisine</th>
+    <th>Ramly Burger</th>
+  </tr>
+  <tr>
+    <td>Dim Sum</td>
+    <td>Naan</td>
+    <td>Nasi Lemak</td>
+    <td>Heaven on Wheels</td>
+  </tr>
+  <tr>
+    <td>Fried Rice</td>
+    <td>Indian Sweets</td>
+    <td>Dadar Gulung</td>
+    <td>Cooking the Burger</td>
+  </tr>
+  <tr>
+    <td>yee Sang</td>
+    <td>Banana Leaf</td>
+    <td>Onde-Onde</td>
+    <td>Done</td>
+  </tr>
+</table>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+ <div class="footer">
+<a href="https://www.facebook.com/benjamin.zahn.77" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/benjamin_zahn/?hl=en" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1500); 
+}
+</script>	
+
+</body>
+</html>
